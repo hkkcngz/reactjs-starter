@@ -55,12 +55,11 @@
   - You need to change all url OR just move fonts folder to "scss" folder. 
 
 
-
+#### Thanks 
+  - roman01la
+  
   
 #### Sources:
   - https://reactrouter.com/web/guides/quick-start
   - https://scotch.io/@micwanyoike/how-to-add-fonts-to-a-react-project
-
-
-#### Thanks 
-  - roman01la
+  - https://github.com/roman01la/html-to-react-components
