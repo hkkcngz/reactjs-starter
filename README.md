@@ -1,24 +1,24 @@
 ## reactjs-starter
 
 ### install ReactJS quick app 
-  npx create-react-app my-app
+  - npx create-react-app my-app
 
 
   Creating a TypeScript app#
     You can start a new TypeScript app using templates. To use our provided TypeScript template, append --template typescript to the creation command.
 
-  npx create-react-app my-app --template typescript
+  - npx create-react-app my-app --template typescript
 
 ### Scripts
 
-#### Run
-  npm start or yarn start
-  
-#### Test
-  npm test or yarn test
-  
-#### Build
-  npm run build or yarn build
+  #### Run
+    npm start or yarn start
+
+  #### Test
+    npm test or yarn test
+
+  #### Build
+    npm run build or yarn build
   
   
 ### Adding SASS 
@@ -30,14 +30,26 @@
   ### Issues 
   
   - Error: Node Sass version 5.0.0 is incompatible with ^4.0.0
-    npm uninstall node-sass
-    npm install node-sass@4.14.1
-    Or
-    yarn remove node-sass
-    yarn add node-sass@4.14.1
+      npm uninstall node-sass
+      npm install node-sass@4.14.1
+      Or
+      yarn remove node-sass
+      yarn add node-sass@4.14.1
 
-### First Debug <a href="#" ==> <Link to="/"
+### First Debug: <a href="#" ==> <Link to="/"
   npm install react-router-dom
   or
   yarn add react-router-dom
              
+  - then change all <a href="#" to <Link to="/". 
+  
+  
+### Second Debug: CSS @Font-face not found
+  - You need to change all url OR just move fonts folder to "scss" folder. 
+
+
+
+  
+#### Sources:
+  - https://reactrouter.com/web/guides/quick-start
+  - https://scotch.io/@micwanyoike/how-to-add-fonts-to-a-react-project
