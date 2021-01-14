@@ -37,11 +37,11 @@
   ### Issues 
   
   - Error: Node Sass version 5.0.0 is incompatible with ^4.0.0
-      > npm uninstall node-sass
-      > npm install node-sass@4.14.1
+      - npm uninstall node-sass
+      - npm install node-sass@4.14.1
         Or
-      > yarn remove node-sass
-      > yarn add node-sass@4.14.1
+      - yarn remove node-sass
+      - yarn add node-sass@4.14.1
 
 ### First Debug: <a href="#" ==> <Link to="/"
   npm install react-router-dom
