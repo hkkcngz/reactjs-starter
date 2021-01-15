@@ -23,7 +23,7 @@
   
 ### HTML to React Components
   1. npm i -g html-to-react-components
-  2. add data-components="component-name" to all tags that you want to convert to a component. 
+  2. add data-component="component-name" to all tags that you want to convert to a component. 
   3. Open terminal and write path of your html => html2react "./html/index.html"
     - if you have more than index.html, multi way to make component => html2react "./src/*.html"
   
